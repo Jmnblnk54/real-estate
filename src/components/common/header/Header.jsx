@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [navList, setNavList] = useState(false);
 
+  const handleToggleClick = () => {
+    setNavList(!navList);
+  };
+
   return (
     <>
       <header>
@@ -32,7 +36,7 @@ const Header = () => {
           </div>
 
           <div className="toggle">
-            <button onClick={() => setNavList(!navList)}>
+            <button onClick={handleToggleClick}>
               {navList ? (
                 <i className="fa fa-times"></i>
               ) : (
