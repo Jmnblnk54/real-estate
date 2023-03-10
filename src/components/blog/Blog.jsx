@@ -1,7 +1,7 @@
 import Back from "../common/Back";
 import RecentCard from "../home/recent/RecentCard";
 import "../home/recent/recent.css";
-import img from "../images/about.jpg";
+import img from "../images/about.jpeg";
 
 const Blog = () => {
   return (

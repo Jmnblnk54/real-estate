@@ -1,4 +1,4 @@
-import img from "../images/pricing.jpg";
+import img from "../images/pricing.jpeg";
 import Back from "../common/Back";
 import "./contact.css";
 

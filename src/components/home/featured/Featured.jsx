@@ -1,5 +1,5 @@
 import Heading from "../../common/Heading";
-import "./Featured.css";
+import "./featured.css";
 import FeaturedCard from "./FeaturedCard";
 
 const Featured = () => {
