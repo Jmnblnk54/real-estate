@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="legal">
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+        <span>Copyright {new Date().getFullYear()} Blank Digital Design</span>
       </div>
     </>
   );
